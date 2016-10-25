@@ -1,0 +1,127 @@
+/* navigation */
+nav{
+  position :fixed; /* Permet de tenir la barre de navigation */
+  width: 100%;
+  margin-bottom: 0px;
+}
+/* --fin-- */
+
+/* Bloc texte d'introduction */
+.en-tete{
+  background-color: #EBEBEB;
+  padding: 20px 30px;
+}
+.en-tete p{
+  font-size: 18px;
+  padding-left: 10px;
+}
+/* --fin-- */
+
+/* Blocs contenant le corps de page*/
+.contenu{
+  padding: 50px 20px;
+}
+/* --fin-- */
+
+/* Blocs contenant le texte de vos articles*/
+
+  .article img{
+    width: 42%;
+    max-height: 400px;
+    padding: 5px;
+  }
+/* --fin-- */
+
+/* Gallerie d'image */
+
+.gallery figure{
+  width: 33.33%;
+}
+
+.gallery figure img{
+  width: 100%;
+  max-height: 310px;
+}
+/* --fin Gallerie image-- */
+
+/* met l'image à gauche */
+.img-left{
+  float: left;
+  margin-right: 20px;
+}
+
+/* met l'image à droite */
+.img-right{
+  float: right;
+  margin-left: 20px;
+}
+
+/* met le texte à droite */
+.text-rigth{
+  text-align: right;
+}
+
+/* met le texte au centre */
+.text-center{
+  text-align: center;
+}
+
+/* met le texte à gauche*/
+.text-left{
+  text-align: left;
+}
+
+/* Modifications sur tout les titres */
+  h1{
+    color: #696969;
+  }
+
+  h2{
+    margin-bottom: 20px;
+    color: #696969;
+    font-weight: 450;
+  }
+
+  h3{
+    color: #696969;
+  }
+
+  h4{
+    color: #696969;
+  }
+/* -- fin de modification de titre --*/
+
+/* image banniére */
+header{
+  height: 200px;
+  overflow: hidden;
+}
+
+header img{
+  width: 100%;
+  position:relative;
+  bottom: 100px;
+}
+/* -- fin --*/
+
+/* Réglage de nettoyage, ne pas toucher */
+h1,h2,h3,h4{
+  margin-top: 0px;
+}
+
+body{
+  margin: 0px;
+}
+
+.ghost{
+  height: 50px;
+}
+
+.article::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+.gallery{
+  display: flex;
+}
